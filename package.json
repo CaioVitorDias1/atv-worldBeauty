@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/prompt-sync": "^4.2.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
