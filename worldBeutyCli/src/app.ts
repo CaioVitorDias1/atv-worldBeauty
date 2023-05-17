@@ -16,6 +16,12 @@ while (execucao) {
     console.log(`Opções:`);
     console.log(`1 - Cadastrar cliente`);
     console.log(`2 - Listar todos os clientes`);
+    console.log(" Listar os 10 clientes que mais consumiram produtos");
+    console.log(" Listar todos os clientes por gênero");
+    console.log(" Listar os produtos mais consumidos");
+    console.log(" Listar os produtos mais consumidos por gênero");
+    console.log(" Listar os 10 clientes que menos consumiram produtos");
+    console.log(" Listar os 5 clientes que mais consumiram em valor");
     console.log(`0 - Sair`);
 
     
