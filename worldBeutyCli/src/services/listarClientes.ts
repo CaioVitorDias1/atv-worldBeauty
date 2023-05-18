@@ -12,7 +12,7 @@ export default class ListagemClientes extends Listagem {
         console.log(`\nLista de todos os clientes:`);
         this.clientes.forEach(cliente => {
             console.log(`Nome: ` + cliente.nome);
-            console.log(`Nome social: ` + cliente.nomeSocial);
+            console.log(`Nome social: ` + cliente.genero);
             console.log(`CPF: ` + cliente.getCpf.getValor);
             console.log(`--------------------------------------`);
         });
@@ -20,9 +20,14 @@ export default class ListagemClientes extends Listagem {
     }
 
     public listar10clientesmaisconsumiramprodutos(): void {
-        
+        const clientes10 = this.clientes
+        .sort((clienteA, clienteB) => clienteB.getProdutosConsumidos.length - clienteA.getProdutosConsumidos.length)
+        .slice(0, 10);
         // let contador = 0;
-
+        clientes10.forEach((cliente, index) => {
+            console.log(`Cliente ${index + 1}: ${cliente.nome} - Produtos consumidos: ${cliente.getProdutosConsumidos.length}`);
+          });
+        
         // this.clientes.forEach(element => {
         //     while(contador < 10){
         //         this.listaClientes.push(element)
