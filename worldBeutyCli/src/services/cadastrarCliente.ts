@@ -1,5 +1,6 @@
 import Cliente from "../entities/cliente"
 import CPF from "../entities/cpf"
+import Produto from "../entities/produto"
 import Entrada from "../functions/entradaInput"
 import Cadastro from "../interface/cadastro"
 
@@ -38,7 +39,7 @@ export default class CadastroCliente extends Cadastro {
 
         let genero1 = "homem"
         let genero2 = "homem"
-        let genero3 = "homem"
+        let genero3 = "mulher"
 
         let cpf1 = "12345678932"
         let cpf2 = "56709831123"
@@ -48,6 +49,16 @@ export default class CadastroCliente extends Cadastro {
         let cpf = new CPF(cpf1, dataemissao)
         let cpff = new CPF(cpf2, dataemissao)
         let cpfff = new CPF(cpf3, dataemissao)
+
+
+        let nomep = "creme"
+        let nomep2 = "gel"
+
+        let produto1 = new Produto()
+        produto1.nome = nomep
+
+        let produto2 = new Produto()
+        produto2.nome = nomep2
 
 
         let cliente1 = new Cliente(nome1, genero1, cpf)
