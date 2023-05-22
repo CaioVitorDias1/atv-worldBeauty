@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { Link } from "react-router-dom";
+import Header from "./components/header";
+import Cadastro from "./pages/cadastro";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <h1>Bem vindo ao sistema WorldBeauty!</h1>
+      <h2>Qual operação gostaria de realizar primeiro?</h2>
+
+      <button><Link to="cadastro">Cadastro</Link></button>
+      <button><Link to="listagem">Listagem</Link></button>
+
     </div>
   );
 }
