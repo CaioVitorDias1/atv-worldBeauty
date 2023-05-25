@@ -1,0 +1,34 @@
+.botao {
+    display: block;
+    padding: 5px 10px;
+    background-color: #4CAF60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.botao:hover {
+    background-color: pink;
+}
+
+.botao:active {
+    background-color: white
+}
+
+body {
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.divtitulos {
+    width: 400px;
+    height: 150px;
+}

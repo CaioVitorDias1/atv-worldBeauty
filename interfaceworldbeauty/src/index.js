@@ -5,6 +5,7 @@ import App from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Listagem from './pages/listagem';
 import Cadastro from './pages/cadastro';
+import "../src/styles/main.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

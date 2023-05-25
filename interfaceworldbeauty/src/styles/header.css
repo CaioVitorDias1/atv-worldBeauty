@@ -1,0 +1,20 @@
+.divprincipal {
+    background-color: blue;
+    height: 70px;
+    align-items: center;
+}
+
+.headertit {
+
+    font-size: 30px;
+    color: #000080;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.botaoheader {
+    display: flex;
+    position:relative;
+    margin-bottom: 50px;
+}

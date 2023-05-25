@@ -7,7 +7,17 @@ class Cadastro extends Component{
         return(
             <div>
                 <Header />
+                <div className="divtitulos">
                 <h1>Cadastro de clientes!</h1>
+                </div>
+                <label>Nome</label>
+                <input></input>
+                <label>Gênero</label>
+                <input></input>
+                <label>CPF</label>
+                <input></input>
+                <label>Data de emissão</label>
+                <input></input>
             </div>
         )
     }
