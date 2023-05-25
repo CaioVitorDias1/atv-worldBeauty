@@ -9,7 +9,7 @@ class Header extends Component{
             <div className="divprincipal">
                 <h1 className="headertit">Cadastro de clientes!</h1>
                 <nav>
-                    <button className="botaoheader"> <Link to="/">Home</Link> </button>
+                    <button className="botaoheader"> <Link to="/" style={{ textDecoration: 'none' }}>Home</Link> </button>
                     
                 </nav>
             </div>
