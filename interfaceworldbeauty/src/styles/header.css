@@ -1,0 +1,39 @@
+.divprincipal {
+    background-color: blue;
+    height: 65px;
+    align-items: center;
+    top: 0%;
+    padding: 5px 5px;
+}
+
+.headertit {
+
+    font-size: 30px;
+    color: #000080;
+    text-align: center;
+    padding: 1px;
+    text-transform: uppercase;
+}
+
+.botaoheader {
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    height: 35px;
+    width: 80px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 3%
+}
+
+.botaoheader:hover {
+    background-color: pink;
+}
+
+.botaoheader:active {
+    background-color: white
+}

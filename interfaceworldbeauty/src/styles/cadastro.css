@@ -1,0 +1,20 @@
+.divtitulos{
+    text-align: center;
+    background-color: ;
+    width: 100%
+}
+
+.form {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.ix {
+    padding: 10px;
+}
+
+.boatao {
+    padding: 10px;
+}
