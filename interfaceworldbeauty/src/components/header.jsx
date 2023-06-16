@@ -7,7 +7,7 @@ class Header extends Component{
 
         return(
             <div className="divprincipal">
-                <h1 className="headertit">Cadastro de clientes!</h1>
+                <h1 className="headertit">World Beauty</h1>
                 <nav>
                     <button className="botaoheader"> <Link to="/" style={{ textDecoration: 'none' }}>Home</Link> </button>
                     

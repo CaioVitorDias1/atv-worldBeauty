@@ -55,7 +55,7 @@ export default function Cadastro(){
     return(
         <div>
             <Header />
-            <div className="divtitulos">
+            <div className="divtitulo">
                 <h1>Cadastro de clientes!</h1>
             </div>
             <div className="form">

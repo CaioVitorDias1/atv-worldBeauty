@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Header from "../components/header";
 import "../styles/listagem.css"
-
+import axios from "axios";
 // class Listagem extends Component{
 //     render(){
 
@@ -42,6 +42,18 @@ import "../styles/listagem.css"
 // export default Listagem
 
 export default function Listagem(){
+
+    function handleSubmit(e){
+        e.preventDefault()
+
+        axios.get("http://localhost:32832/clientes")
+        .then( res => {
+            let resposta = res.data
+            console.log(resposta)
+        })
+    }
+
+
     return (
         <div>
             <Header />
@@ -51,7 +63,7 @@ export default function Listagem(){
 
         <div className="divmenu">
             <label>Listar todos os clientes</label>
-            <button className="botao">Escolher</button>
+            <button className="botao" onClick={handleSubmit}>Escolher</button>
 
             <label>Listar clientes por gênero</label>
             <button className="botao">Escolher</button>
